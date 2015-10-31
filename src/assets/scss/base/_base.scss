@@ -1,0 +1,57 @@
+body {
+  background: #fff;
+  font-weight: 100;
+}
+
+h1, h2, h3, h4, h5, h6, {
+  font-weight: bold;
+}
+
+
+// Small devices (landscape phones, 34em and up)
+@media ( min-width: $screen-sm-min ) {	
+	body {
+		background: $color-1
+		}
+}
+
+// Medium devices (tablets, 48em and up)
+@media ( min-width: $screen-md-min ) { 
+	body {
+		background: $color-2
+	}
+}
+
+// Large devices (desktops, 62em and up)
+@media ( min-width: $screen-lg-min ) { 
+	body {
+		background: $color-3
+	}
+}
+
+// Extra large devices (large desktops, 75em and up)
+@media ( min-width: $screen-xl-min ) { 
+	body {
+		background: $color-4
+	}
+}
+
+
+// Extra small devices (portrait phones, less than 34em)
+@media ( max-width: $screen-xs-max ) { 
+	body {
+		background: $color-5
+	}
+}
+
+// Small devices (landscape phones, less than 48em)
+@media ( max-width: $screen-sm-max ) {
+}
+
+// Medium devices (tablets, less than 62em)
+@media ( max-width: $screen-md-max ) {
+}
+
+// Large devices (desktops, less than 75em)
+@media ( max-width: $screen-lg-max ) {
+}

@@ -1,0 +1,22 @@
+{
+  "name": "GulpRequireJS",
+  "version": "1",
+  "authors": [
+    "Renato Cardoso <renato.cardoso@kpn.com>"
+  ],
+  "description": "",
+  "main": "main.js",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "GulpRequireJS",
+  "version": "1.0.0",
+  "description": "Startup project using gulp and requirejs",
+  "main": "main.js",
+  "scripts": {
+    "i": "bower install && npm install",
+    "test": "node tests/pinboard-test.js"
+  },
+  "author": "Renato Cardoso",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.9.10",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-compass": "^2.1.0",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-ruby-sass": "^2.0.4",
+    "gulp-shell": "^0.5.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "path": "^0.12.7",
+    "require-dir": "^0.3.0",
+    "requirejs": "^2.1.20",
+    "run-sequence": "^1.1.4"
+  }
+}
