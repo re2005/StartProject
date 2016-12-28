@@ -1,0 +1,14 @@
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" ui-sref="app.home">Menu</a>
+        </div>
+        <ul class="nav navbar-nav" data-active-menu="">
+            <li ng-class="{ active: ctrl.isActive('/app/home')}"><a ui-sref="app.home">Home</a></li>
+            <li ng-class="{ active: ctrl.isActive('/app/page1')}"><a ui-sref="app.page1">Page 1</a></li>
+        </ul>
+        <div class="navbar-right">
+            <button class="btn btn-primary margin-8">right button</button>
+        </div>
+    </div>
+</nav>

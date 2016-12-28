@@ -1,22 +1,16 @@
 {
-  "name": "GulpRequireJS",
-  "version": "1",
+  "name": "start-project",
+  "version": "0.0.1",
   "authors": [
-    "Renato Cardoso <renato.cardoso@kpn.com>"
-  ],
-  "description": "",
-  "main": "main.js",
-  "moduleType": [],
-  "license": "MIT",
-  "homepage": "",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "Renato Cardoso <re2005@gmail.com>"
   ],
   "dependencies": {
-    "jquery": "~2.1.4"
+    "reset.scss": "^1.0.1",
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap-sass": "^3.3.7"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.0"
   }
 }

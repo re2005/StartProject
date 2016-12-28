@@ -1,30 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
+    <base href="/">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>StartUp</title>
-    <link href="css/style.css" rel="stylesheet">
+    <title>Start Project</title>
+    <meta name="description" content="Start project - angular 1.5.x">
+
+    <!-- build:css({.tmp,src}) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- run `gulp inject` to automatically populate bower styles dependencies -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css({.tmp,src}) styles/app.css -->
+    <link rel="stylesheet" href="index.css"/>
+    <!-- endbuild -->
+
+    <script src="//assets.adobedtm.com/9c39b9aa8a00f7c4bc0d485e1da145a71879e347/satelliteLib-70479c0fd48d12c904ac8537f56f61e796abb1dc-staging.js"></script>
+    <script type="text/javascript"
+            src="https://c.la1-c2cs-lon.salesforceliveagent.com/content/g/js/38.0/deployment.js"></script>
 </head>
-<body>
 
-    <header>
-        Header
-    </header>
+<body ng-app="app">
+<ui-view></ui-view>
 
-    <nav class="navbar navbar-default navbar-fixed-top">
-        Nav
-    </nav>
+<!-- build:js({.tmp,src}) scripts/vendor.js -->
+<!-- bower:js -->
+<!-- run `gulp inject` to automatically populate bower script dependencies -->
+<!-- endbower -->
+<!-- endbuild -->
 
-    <section>
-        <h1>Section</h1>
-    </section>
+<!-- build:js({.tmp,src}) scripts/app.js -->
+<!-- inject:js -->
+<!-- js files will be automatically insert here -->
+<!-- endinject -->
+<!-- inject:partials -->
+<!-- angular templates will be automatically converted in js and inserted here -->
+<!-- endinject -->
+<!-- endbuild -->
 
-    <footer>
-        Footer
-    </footer>
+<div data-loading></div>
 
-    <script src="scripts/main.js" data-main="scripts/app"></script>
 </body>
 </html>

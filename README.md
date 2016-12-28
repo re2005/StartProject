@@ -1,7 +1,29 @@
-# Gulp and RequireJS
+# Start Project
 
-** Installation instructions **
+This is a seed for Angular 1.5
+Gulp, Browsersync
 
-> 1. Checkout the repository
-> 2. Run 'npm install' to install all node dependencies
-> 3. Run 'bower install' to install bower dependencies
+
+#### Clone the repository
+
+``` sh
+git clone git@github.com:re2005/StartProject.git
+```
+
+#### Install system
+
+``` sh
+npm install
+```
+
+#### Run locally on port 3000
+
+``` sh
+gulp serve
+```
+
+#### Build project
+
+``` sh
+npm build:prod
+```

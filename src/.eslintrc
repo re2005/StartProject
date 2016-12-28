@@ -1,0 +1,34 @@
+{
+  "rules": {
+    "indent": [
+      "error",
+      4
+    ],
+    "wrap-iife" : [
+      "error",
+      "any"
+    ],
+    "no-return-assign" : [
+      "error",
+      "except-parens"
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "no-cond-assign": [
+      "error",
+      "always"
+    ],
+    "no-console": "off",
+    "camelcase": ["error", {"properties": "never"}]
+  }
+}

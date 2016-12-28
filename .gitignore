@@ -1,8 +1,7 @@
 node_modules
 bower_components
+.DS_Store
 .tmp
-.sass-cache
+.idea
 dist
 .DS_Store
-*.diff
-*.sublime*
